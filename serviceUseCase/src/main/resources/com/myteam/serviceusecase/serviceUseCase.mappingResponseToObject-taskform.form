@@ -1,0 +1,51 @@
+
+<form id="224272116">
+<property name="name" value="serviceUseCase.mappingResponseToObject-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="ambulanceDetails_requested" type="CheckBox" id="1442763190">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;requested (ambulanceDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ambulanceDetails/requested"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="parentcustomerDetails_ambulance" type="CheckBoxPrimitiveBoolean" id="937318343">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ambulance (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/ambulance"/>
+<property name="fieldClass" value="boolean"/>
+</field>
+<field position="2" name="parentcustomerDetails_location" type="InputText" id="151296286">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;location (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/location"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="parentcustomerDetails_name" type="InputText" id="1575252326">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="parentcustomerDetails_policyId" type="InputTextInteger" id="850939479">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;policyId (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/policyId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="status" type="CheckBox" id="2096008544">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="status"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#BBBBBB" type="dataModelerEntry" outId="ambulanceDetails" value="com.myteam.serviceusecase.ambulanceStatus" id="ambulanceDetails"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="parentcustomerDetails" value="com.myteam.serviceusecase.CustomerDetailsObject" id="parentcustomerDetails"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="status" value="java.lang.Boolean" id="status"/>
+</form>
