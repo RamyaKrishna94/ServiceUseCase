@@ -11,12 +11,24 @@ public class CustomerDetailsObject implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("name")
 	private java.lang.String name;
 	@org.kie.api.definition.type.Label("policyId")
-	private java.lang.Integer policyId;
+	private String policyId;
 	@org.kie.api.definition.type.Label("ambulance")
 	private boolean ambulance;
 
 	@org.kie.api.definition.type.Label("location")
 	private java.lang.String location;
+
+	@org.kie.api.definition.type.Label("towing")
+	private java.lang.Boolean towing;
+
+	@org.kie.api.definition.type.Label("taxi")
+	private java.lang.Boolean taxi;
+
+	@org.kie.api.definition.type.Label("CustomerPhNo")
+	private java.lang.String customerPhNo;
+
+	@org.kie.api.definition.type.Label("CaseType")
+	private java.lang.String caseType;
 
 	public CustomerDetailsObject() {
 	}
@@ -27,14 +39,6 @@ public class CustomerDetailsObject implements java.io.Serializable {
 
 	public void setName(java.lang.String name) {
 		this.name = name;
-	}
-
-	public java.lang.Integer getPolicyId() {
-		return this.policyId;
-	}
-
-	public void setPolicyId(java.lang.Integer policyId) {
-		this.policyId = policyId;
 	}
 
 	public boolean isAmbulance() {
@@ -53,13 +57,59 @@ public class CustomerDetailsObject implements java.io.Serializable {
 		this.location = location;
 	}
 
+	public java.lang.Boolean getTowing() {
+		return this.towing;
+	}
+
+	public void setTowing(java.lang.Boolean towing) {
+		this.towing = towing;
+	}
+
+	public java.lang.Boolean getTaxi() {
+		return this.taxi;
+	}
+
+	public void setTaxi(java.lang.Boolean taxi) {
+		this.taxi = taxi;
+	}
+
+	public java.lang.String getCustomerPhNo() {
+		return this.customerPhNo;
+	}
+
+	public void setCustomerPhNo(java.lang.String customerPhNo) {
+		this.customerPhNo = customerPhNo;
+	}
+
+	public java.lang.String getCaseType() {
+		return this.caseType;
+	}
+
+	public void setCaseType(java.lang.String caseType) {
+		this.caseType = caseType;
+	}
+
+	public java.lang.String getPolicyId() {
+		return this.policyId;
+	}
+
+	public void setPolicyId(java.lang.String policyId) {
+		this.policyId = policyId;
+	}
+
 	public CustomerDetailsObject(java.lang.String name,
-			java.lang.Integer policyId, boolean ambulance,
-			java.lang.String location) {
+			java.lang.String policyId, boolean ambulance,
+			java.lang.String location, java.lang.Boolean towing,
+			java.lang.Boolean taxi, java.lang.String customerPhNo,
+			java.lang.String caseType) {
 		this.name = name;
 		this.policyId = policyId;
 		this.ambulance = ambulance;
 		this.location = location;
+		this.towing = towing;
+		this.taxi = taxi;
+		this.customerPhNo = customerPhNo;
+		this.caseType = caseType;
 	}
 
 }

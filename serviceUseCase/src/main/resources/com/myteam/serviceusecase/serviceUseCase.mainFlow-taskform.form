@@ -1,0 +1,57 @@
+
+<form id="1757360155">
+<property name="name" value="serviceUseCase.mainFlow-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="approved" type="CheckBox" id="1020517767">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;approved (approved)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="approved"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="customerDetails_ambulance" type="CheckBoxPrimitiveBoolean" id="1237688382">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ambulance (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="customerDetails/ambulance"/>
+<property name="fieldClass" value="boolean"/>
+</field>
+<field position="2" name="customerDetails_location" type="InputText" id="208081519">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;location (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="customerDetails/location"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="customerDetails_name" type="InputText" id="1679787513">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="customerDetails/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="customerDetails_policyId" type="InputTextInteger" id="1194591116">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;policyId (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="customerDetails/policyId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="customerDetails_taxi" type="CheckBox" id="1933568375">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;taxi (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="customerDetails/taxi"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="customerDetails_towing" type="CheckBox" id="2083242097">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;towing (customerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="customerDetails/towing"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="approved" value="java.lang.Boolean" id="approved"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="customerDetails" value="com.myteam.serviceusecase.CustomerDetailsObject" id="customerDetails"/>
+</form>

@@ -1,0 +1,65 @@
+
+<form id="595167107">
+<property name="name" value="serviceUseCase.TaxiService-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="instance" type="InputText" id="1381904405">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;instance (instance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="instance"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="parentcustomerDetails_ambulance" type="CheckBoxPrimitiveBoolean" id="1266929526">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ambulance (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/ambulance"/>
+<property name="fieldClass" value="boolean"/>
+</field>
+<field position="2" name="parentcustomerDetails_location" type="InputText" id="905309992">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;location (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/location"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="parentcustomerDetails_name" type="InputText" id="2087066957">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="parentcustomerDetails_policyId" type="InputTextInteger" id="1064374123">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;policyId (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/policyId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="5" name="parentcustomerDetails_taxi" type="CheckBox" id="430010567">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;taxi (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/taxi"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="parentcustomerDetails_towing" type="CheckBox" id="2062258751">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;towing (parentcustomerDetails)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="parentcustomerDetails/towing"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="status" type="CheckBox" id="618804996">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="status"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="instance" value="java.lang.String" id="instance"/>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="parentcustomerDetails" value="com.myteam.serviceusecase.CustomerDetailsObject" id="parentcustomerDetails"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="status" value="java.lang.Boolean" id="status"/>
+</form>
