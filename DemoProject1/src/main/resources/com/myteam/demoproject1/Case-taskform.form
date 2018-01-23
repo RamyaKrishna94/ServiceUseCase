@@ -1,9 +1,16 @@
 
-<form id="303639802">
+<form id="2065274017">
 <property name="name" value="Case-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="ambulance" type="CheckBox" id="1486571407">
+<field position="2" name="case_status" type="InputText" id="1576140004">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;case_status (case_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="case_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="0" name="ambulance" type="CheckBox" id="28253529">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;ambulance (ambulance)quot;"/>
 <property name="readonly" value="false"/>
@@ -11,14 +18,15 @@
 <property name="outputBinding" value="ambulance"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="1" name="case_status" type="InputText" id="214889410">
+<field position="1" name="case_ID" type="InputText" id="1837822972">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;case_status (case_status)quot;"/>
+<property name="label" value="quot;enquot;,quot;case_ID (case_ID)quot;"/>
 <property name="readonly" value="false"/>
-<property name="outputBinding" value="case_status"/>
+<property name="inputBinding" value="case_ID"/>
+<property name="outputBinding" value="case_ID"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="taxi" type="CheckBox" id="1794888471">
+<field position="5" name="taxi" type="CheckBox" id="611157543">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;taxi (taxi)quot;"/>
 <property name="readonly" value="false"/>
@@ -26,7 +34,7 @@
 <property name="outputBinding" value="taxi"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="3" name="towing" type="CheckBox" id="964137009">
+<field position="6" name="towing" type="CheckBox" id="483697688">
 <property name="fieldRequired" value="false"/>
 <property name="label" value="quot;enquot;,quot;towing (towing)quot;"/>
 <property name="readonly" value="false"/>
@@ -34,8 +42,27 @@
 <property name="outputBinding" value="towing"/>
 <property name="fieldClass" value="java.lang.Boolean"/>
 </field>
+<field position="3" name="name" type="InputText" id="294317477">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (name)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="name"/>
+<property name="outputBinding" value="name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="policy_Id" type="InputText" id="1323451725">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;policy_Id (policy_Id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="policy_Id"/>
+<property name="outputBinding" value="policy_Id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
 <dataHolder inputId="ambulance" name="#E9E371" type="basicType" outId="ambulance" value="java.lang.Boolean" id="ambulance"/>
+<dataHolder inputId="case_ID" name="#000000" type="basicType" outId="case_ID" value="java.lang.String" id="case_ID"/>
 <dataHolder inputId="" name="#0000A0" type="basicType" outId="case_status" value="java.lang.String" id="case_status"/>
+<dataHolder inputId="name" name="#B29FE4" type="basicType" outId="name" value="java.lang.String" id="name"/>
+<dataHolder inputId="policy_Id" name="#FF54A7" type="basicType" outId="policy_Id" value="java.lang.String" id="policy_Id"/>
 <dataHolder inputId="taxi" name="#FF54A7" type="basicType" outId="taxi" value="java.lang.Boolean" id="taxi"/>
 <dataHolder inputId="towing" name="#BBBBBB" type="basicType" outId="towing" value="java.lang.Boolean" id="towing"/>
 </form>
