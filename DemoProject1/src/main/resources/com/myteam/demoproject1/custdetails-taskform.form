@@ -1,33 +1,48 @@
 
-<form id="1339805060">
+<form id="794615606">
 <property name="name" value="custdetails-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="case_ID" type="InputText" id="843169628">
+<field position="0" name="case_caseId" type="InputTextInteger" id="1985019605">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;case_ID (case_ID)quot;"/>
+<property name="label" value="quot;enquot;,quot;caseId (case)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="case_ID"/>
-<property name="outputBinding" value="case_ID"/>
+<property name="inputBinding" value="case/caseId"/>
+<property name="outputBinding" value="case/caseId"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="case_status" type="InputText" id="240844161">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;status (case)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="case/status"/>
+<property name="outputBinding" value="case/status"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="1" name="name" type="InputText" id="2104080605">
+<field position="2" name="cust_location" type="InputText" id="927525459">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;name (name)quot;"/>
+<property name="label" value="quot;enquot;,quot;location (cust)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="name"/>
-<property name="outputBinding" value="name"/>
+<property name="inputBinding" value="cust/location"/>
+<property name="outputBinding" value="cust/location"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<field position="2" name="policy_Id" type="InputText" id="702189777">
+<field position="3" name="cust_name" type="InputText" id="1919933892">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;policy_Id (policy_Id)quot;"/>
+<property name="label" value="quot;enquot;,quot;name (cust)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="policy_Id"/>
-<property name="outputBinding" value="policy_Id"/>
+<property name="inputBinding" value="cust/name"/>
+<property name="outputBinding" value="cust/name"/>
 <property name="fieldClass" value="java.lang.String"/>
 </field>
-<dataHolder inputId="case_ID" name="#000000" type="basicType" outId="case_ID" value="java.lang.String" id="case_ID"/>
-<dataHolder inputId="name" name="#B29FE4" type="basicType" outId="name" value="java.lang.String" id="name"/>
-<dataHolder inputId="policy_Id" name="#FF54A7" type="basicType" outId="policy_Id" value="java.lang.String" id="policy_Id"/>
+<field position="4" name="cust_policy_id" type="InputTextInteger" id="253802163">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;policy_id (cust)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="cust/policy_id"/>
+<property name="outputBinding" value="cust/policy_id"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="case" name="#FF54A7" type="dataModelerEntry" outId="case" value="com.myteam.demoproject1.CaseDetails" id="case"/>
+<dataHolder inputId="cust" name="#E9E371" type="dataModelerEntry" outId="cust" value="com.myteam.demoproject1.CustDetails" id="cust"/>
 </form>

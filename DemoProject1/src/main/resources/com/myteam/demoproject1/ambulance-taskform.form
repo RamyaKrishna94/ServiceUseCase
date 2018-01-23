@@ -1,23 +1,15 @@
 
-<form id="1353624220">
+<form id="1848807339">
 <property name="name" value="ambulance-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
-<field position="0" name="ambulance_status" type="InputText" id="1814421642">
+<field position="0" name="ambulance_av" type="CheckBox" id="1311066760">
 <property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;ambulance_status (ambulance_status)quot;"/>
+<property name="label" value="quot;enquot;,quot;ambulance_av (ambulance_av)quot;"/>
 <property name="readonly" value="false"/>
-<property name="inputBinding" value="ambulance_status"/>
-<property name="outputBinding" value="ambulance_status"/>
-<property name="fieldClass" value="java.lang.String"/>
+<property name="inputBinding" value="ambulance_av"/>
+<property name="outputBinding" value="ambulance_av"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
 </field>
-<field position="1" name="case_status" type="InputText" id="97074539">
-<property name="fieldRequired" value="false"/>
-<property name="label" value="quot;enquot;,quot;case_status (case_status)quot;"/>
-<property name="readonly" value="false"/>
-<property name="outputBinding" value="case_status"/>
-<property name="fieldClass" value="java.lang.String"/>
-</field>
-<dataHolder inputId="ambulance_status" name="#FBB767" type="basicType" outId="ambulance_status" value="java.lang.String" id="ambulance_status"/>
-<dataHolder inputId="" name="#0000A0" type="basicType" outId="case_status" value="java.lang.String" id="case_status"/>
+<dataHolder inputId="ambulance_av" name="#FBB767" type="basicType" outId="ambulance_av" value="java.lang.Boolean" id="ambulance_av"/>
 </form>
