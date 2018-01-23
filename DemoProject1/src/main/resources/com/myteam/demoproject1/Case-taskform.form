@@ -1,0 +1,41 @@
+
+<form id="303639802">
+<property name="name" value="Case-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="ambulance" type="CheckBox" id="1486571407">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ambulance (ambulance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ambulance"/>
+<property name="outputBinding" value="ambulance"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="case_status" type="InputText" id="214889410">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;case_status (case_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="case_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="taxi" type="CheckBox" id="1794888471">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;taxi (taxi)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taxi"/>
+<property name="outputBinding" value="taxi"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="towing" type="CheckBox" id="964137009">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;towing (towing)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="towing"/>
+<property name="outputBinding" value="towing"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="ambulance" name="#E9E371" type="basicType" outId="ambulance" value="java.lang.Boolean" id="ambulance"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="case_status" value="java.lang.String" id="case_status"/>
+<dataHolder inputId="taxi" name="#FF54A7" type="basicType" outId="taxi" value="java.lang.Boolean" id="taxi"/>
+<dataHolder inputId="towing" name="#BBBBBB" type="basicType" outId="towing" value="java.lang.Boolean" id="towing"/>
+</form>

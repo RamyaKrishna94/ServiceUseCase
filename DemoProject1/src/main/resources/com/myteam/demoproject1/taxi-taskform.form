@@ -1,0 +1,23 @@
+
+<form id="1425973368">
+<property name="name" value="taxi-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="case_status" type="InputText" id="458461691">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;case_status (case_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="case_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="taxi_status" type="InputText" id="1172288859">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;taxi_status (taxi_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="taxi_status"/>
+<property name="outputBinding" value="taxi_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="case_status" value="java.lang.String" id="case_status"/>
+<dataHolder inputId="taxi_status" name="#A7E690" type="basicType" outId="taxi_status" value="java.lang.String" id="taxi_status"/>
+</form>

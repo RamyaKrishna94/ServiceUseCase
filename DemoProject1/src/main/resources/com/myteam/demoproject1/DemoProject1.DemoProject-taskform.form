@@ -1,0 +1,102 @@
+
+<form id="197927756">
+<property name="name" value="DemoProject1.DemoProject-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="ambulance" type="CheckBox" id="488015610">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ambulance (ambulance)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ambulance"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="ambulance_status" type="InputText" id="598613181">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ambulance_status (ambulance_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ambulance_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="case_ID" type="InputText" id="951118798">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;case_ID (case_ID)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="case_ID"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="case_status" type="InputText" id="625380944">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;case_status (case_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="case_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="case_type" type="InputText" id="1703694023">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;case_type (case_type)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="case_type"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="close" type="CheckBox" id="1516173020">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;close (close)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="close"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="name" type="InputText" id="1778675506">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (name)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="policy_Id" type="InputText" id="2035845268">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;policy_Id (policy_Id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="policy_Id"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="taxi" type="CheckBox" id="1609238241">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;taxi (taxi)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="taxi"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="taxi_status" type="InputText" id="1720440864">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;taxi_status (taxi_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="taxi_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="towing" type="CheckBox" id="812467072">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;towing (towing)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="towing"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="11" name="towing_status" type="InputText" id="2079987690">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;towing_status (towing_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="towing_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="ambulance" value="java.lang.Boolean" id="ambulance"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="ambulance_status" value="java.lang.String" id="ambulance_status"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="case_ID" value="java.lang.String" id="case_ID"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="case_status" value="java.lang.String" id="case_status"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="case_type" value="java.lang.String" id="case_type"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="close" value="java.lang.Boolean" id="close"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="name" value="java.lang.String" id="name"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="policy_Id" value="java.lang.String" id="policy_Id"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="taxi" value="java.lang.Boolean" id="taxi"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="taxi_status" value="java.lang.String" id="taxi_status"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="towing" value="java.lang.Boolean" id="towing"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="towing_status" value="java.lang.String" id="towing_status"/>
+</form>

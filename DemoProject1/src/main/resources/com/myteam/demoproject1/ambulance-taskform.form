@@ -1,0 +1,23 @@
+
+<form id="1353624220">
+<property name="name" value="ambulance-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="ambulance_status" type="InputText" id="1814421642">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ambulance_status (ambulance_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ambulance_status"/>
+<property name="outputBinding" value="ambulance_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="case_status" type="InputText" id="97074539">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;case_status (case_status)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="case_status"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="ambulance_status" name="#FBB767" type="basicType" outId="ambulance_status" value="java.lang.String" id="ambulance_status"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="case_status" value="java.lang.String" id="case_status"/>
+</form>
